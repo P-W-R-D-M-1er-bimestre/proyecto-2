@@ -1,0 +1,204 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif; 
+	background-color: #D4E6F1;
+	/*padding-top: 30px;*/ /*para cabecera fija*/
+}
+
+/*CABECERA*/
+header {
+	background-color: #154360;
+	box-shadow: 2px 2px 5px #999; /*Estructura: eje x,eje y,tamaño del desenfoque, border (aunque generlamente es cero y si no lo poner por defecto es cero),color*/
+	font-size: 0px;
+	position: relative;
+	/*position: fixed;*//*para cabecera fija*/
+	/*padding-right: 989px;*//*para cabecera fija*/
+	/*margin: -30px;*/ /*para cabecera fija*/
+	/*margin-left: 0px;*//*para cabecera fija*/
+}
+
+header .logo{
+	font-size: 30px;
+	font-family: 'Hurricane', cursive;
+	color:white;
+	padding-left: 20px;
+	display: inline;
+}
+header .publicar{
+	font-size: 15px;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color:white;
+	padding: 5px;
+	text-decoration: 0px; 
+	float:right;
+	margin: 5px;
+	padding-top: 8px;
+	display: inline;
+}
+header .inicio{
+	font-size: 15px;
+	font-family: Century Gothic;
+	font-weight: bold; /*agruesar las letras*/
+	color:white;
+	padding: 5px;
+	text-decoration: 0px;
+	/*text-align: right;*/
+	float:right;
+	margin:5px;
+	padding-top: 8px;
+	display: inline;
+}
+
+header .fa-regular.fa-bowl-hot{ /*alinear*/
+	color: white;
+	float: right;
+	margin-top: 0px;
+	font-size: 15px;
+	display: inline;
+}
+
+header .fa-solid.fa-house{ /*alinear*/
+	color: white;
+	float: right;
+	margin-top: 1px;
+	font-size: 15px;
+	display: inline;
+}
+
+header .caja_inicio{
+    display: table-cell;
+    float: right;
+    padding-left: 1px;
+    padding-right: 1px;
+    transition: background .5s;
+	border-radius: 5px;
+}
+header .caja_publicar{
+    display: table-cell;
+    float: right;
+    padding-left: 1px;
+    padding-right: 1px;
+    transition: background .5s;
+	border-radius: 5px;
+}
+
+header .caja_inicio:hover,.caja_publicar:hover{
+	background-color: #4276A7;
+}
+
+/*SECCION 1 RECETA-1*/
+article .recetas{
+	display: block;
+}
+
+article .receta-1{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-2{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-3{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-4{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-5{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-6{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-7{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-8{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-9{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-10{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-11{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-12{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}

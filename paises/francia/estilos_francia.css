@@ -1,0 +1,226 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif; 
+	background-color: #EAE2E1; /*#D4E6F1* --> color anterior/
+	/*padding-top: 30px;*/ /*para cabecera fija*/
+}
+
+/*CABECERA*/
+header {
+	background-color: #E62304; /*#154360 --> color anterior*/
+	box-shadow: 2px 2px 5px #999; /*Estructura: eje x,eje y,tamaño del desenfoque, border (aunque generlamente es cero y si no lo poner por defecto es cero),color*/
+	font-size: 0px;
+	position: relative;
+	/*position: fixed;*//*para cabecera fija*/
+	/*padding-right: 989px;*//*para cabecera fija*/
+	/*margin: -30px;*/ /*para cabecera fija*/
+	/*margin-left: 0px;*//*para cabecera fija*/
+}
+
+header .logo{
+	font-size: 30px;
+	font-family: 'Hurricane', cursive;
+	color:white;
+	padding-left: 20px;
+	display: inline;
+}
+header .publicar{
+	font-size: 15px;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color:white;
+	padding: 5px;
+	text-decoration: 0px; 
+	float:right;
+	margin: 5px;
+	padding-top: 8px;
+	display: inline;
+}
+header .inicio{
+	font-size: 15px;
+	font-family: Century Gothic;
+	font-weight: bold; /*agruesar las letras*/
+	color:white;
+	padding: 5px;
+	text-decoration: 0px;
+	/*text-align: right;*/
+	float:right;
+	margin:5px;
+	padding-top: 8px;
+	display: inline;
+}
+
+header .fa-regular.fa-bowl-hot{ /*alinear*/
+	color: white;
+	float: right;
+	margin-top: 0px;
+	font-size: 15px;
+	display: inline;
+}
+
+header .fa-solid.fa-house{ /*alinear*/
+	color: white;
+	float: right;
+	margin-top: 1px;
+	font-size: 15px;
+	display: inline;
+}
+
+header .caja_inicio{
+    display: table-cell;
+    float: right;
+    padding-left: 1px;
+    padding-right: 1px;
+    transition: background .5s;
+	border-radius: 5px;
+}
+header .caja_publicar{
+    display: table-cell;
+    float: right;
+    padding-left: 1px;
+    padding-right: 1px;
+    transition: background .5s;
+	border-radius: 5px;
+}
+
+header .caja_inicio:hover,.caja_publicar:hover{
+	background-color: #F87C69; /*#4276A7-->color anterior*/
+}
+
+/*SECCION 1*/
+
+    /*receta dulce RECETA-1*/
+article .recetas{
+	margin: 0px;
+	padding: 0px;
+}
+
+article .receta-1,.receta-2,.receta-3,.receta-4,.receta-5,.receta-6{
+	background-color: white;
+	width:380px; 
+	height:500px;
+	border-radius: 15px;
+	display: inline-block;
+	margin-left: 45px;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+
+article .caja{
+	background-color:#F1E8E6;
+	width: 380px;
+	height: 50px;
+	position: absolute;
+	margin-top: 450px;
+	z-index: -1px;
+	transition: opacity .5s;
+	box-shadow: 0 0 80px #ddd;
+	opacity: 50%;
+}
+
+article .capa{
+	background-color: white;
+	width: 380px;
+	height: 150px;
+	margin-top: 350px;
+	position: relative;
+}
+article .capa:hover {
+	opacity: 0;
+}
+
+article .nombre_receta-1,.nombre_receta-2,.nombre_receta-3,.nombre_receta-4,.nombre_receta-5,.nombre_receta-6{
+	margin-top: 12px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/*article .receta-4{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-5{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-6{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-7{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-8{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-9{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-10{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-11{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+article .receta-12{
+	background-color: white;
+	width: 800px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 500px;
+}*/
