@@ -11,13 +11,38 @@
 	 <link rel="preconnect" href="https://fonts.googleapis.com">
 	 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	 <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+
+	 	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Fira+Sans:wght@100&family=Hurricane&family=Martel+Sans:wght@200&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
- <h1>SUBE TU RECETA</h1>
- <p>podrás subir tu receta en este apartado para poder aportar a la pagina web</p>
- <p>Nuestro equipo recibirá tu receta y confirmara si se sube tu receta o no por gmail</p>
+<div class="subir__receta">
+<h1 class="titulo">SUBE TU RECETA</h1>
 
-</body>
+
+<form class="formulario">
+  <div class="caja">
+  <input class="ingreso nombre" type="text" name="" placeholder="Ingrese su nombre" required="">
+   <input class="ingreso" type="text" name="" placeholder="Nombre de la receta" required="">
+    <textarea class="ingreso descripcion" name="comentario" placeholder="Descripcion"></textarea>
+    <textarea class="ingreso ingredientes" name="comentario" placeholder="Introduzca ingredientes" required=""></textarea>
+    <textarea class="ingreso procedimiento" name="comentario" placeholder="Procedimiento" required=""></textarea>
+    <input class="ingreso" type="email" name="correo" placeholder="Introduzca su gmail" required="">
+    <br>
+    <input type="submit" name="enviar" placeholder="enviar" required="" class="ingreso_enviar">
+    <br>
+      <a href="../index.html" class="opcion_cancelar">CANCELAR</a>
+      <a href="#" class="opcion_siguiente">SIGUIENTE</a>  
+  </div>
+  
+</form>
+<p class="detalle">podrás subir tu receta en este apartado para poder aportar a la pagina web</p>
+ <p class="detalle">Nuestro equipo recibirá tu receta y confirmara si se sube tu receta o no por gmail</p>
+ 
+	
+</div>
+ </body>
 </html>
