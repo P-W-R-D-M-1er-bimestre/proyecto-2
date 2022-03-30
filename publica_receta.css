@@ -1,3 +1,102 @@
 body{
-	background-color: blue;
+	font-family: sans-serif; 
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);/*background-color: white;*/
+}
+
+/*EXTERIOR*/
+.subir__receta{
+	padding:0px;
+	margin: 0px;
+}
+.titulo{
+	text-align: center;
+	font-family: Century Gothic;
+	font-weight: bold;
+}
+.detalle{
+	text-align: center;
+}
+
+/*FORMULARIO*/
+.formulario{
+	background-color:white;/*background-color: #D4E6F1;*/
+	border-radius: 20px;
+	height: 650px;
+	width: 400px;
+	margin:auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+.caja{
+	padding-top: 30px;
+}
+.ingreso{
+	margin-left: 50px;
+	background-color: white;
+	/*border:0px;*/
+	/*border:none;*/
+	border-radius: 10px;
+	width: 300px;
+	height: 30px;
+	padding-left: 10px;
+	font-family: arial;
+	outline: none;
+	display: block;
+	margin: auto;
+	margin-bottom: 30px;
+	resize: none;
+	/*border-color: 0.8px solid #bbb0b0;*/
+	border-style: solid;
+	border-width: 0.2px;
+	border-color: #bbb0b0;
+}
+.ingreso:focus{
+	box-shadow: 0px 0px 4px black;
+	border:none;
+}
+
+.ingreso.descripcion:focus,.ingreso.ingredientes:focus,.ingreso.procedimiento:focus{
+	width: 300px;
+	height: 300px;
+	outline: none;
+	border:none;
+}
+
+.ingreso_enviar{
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+/*OPCIONES*/
+.opcion_cancelar,.opcion_siguiente{
+	color: white;
+	font-weight:bold;
+	text-decoration: none;
+	transition: transform 1s;
+}
+.opcion_cancelar{
+	margin-left: 30px;
+	margin-top: 100px;
+	background-color: #154360;
+	border-radius: 10px;
+	padding: 5px;
+}
+.opcion_siguiente{
+	margin-left: 578px;
+	margin-bottom: 160px;
+	background-color: #154360;
+	position: absolute;
+	border-radius: 10px;
+	padding: 5px;
+}
+.opcion_cancelar:hover,.opcion_siguiente:hover{
+	transform: scale(1.1);
+}
+.opcion_cancelar:hover{
+	background-color: #FA2323;
+}
+
+.opcion_siguiente:hover{
+	background-color: #69F163;
 }
