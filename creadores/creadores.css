@@ -1,6 +1,6 @@
 html{
-	margin-left: 70px;
-	margin-right: 70px;
+	margin-left: 50px;
+	margin-right: 50px;
 	margin-top: 20px;
     font-family: sans-serif;
 }
@@ -22,7 +22,7 @@ body{
 	padding-left: 40px;
 	padding-top: 35px;
 	float: left;
-	margin-right: 40px;
+	margin-right: 10px;
 	margin-bottom: 15px;
 	border: 3px solid #111;
 	transition: transform 1s,box-shadow 1s; /*quitar*/
@@ -53,4 +53,18 @@ body{
 	overflow: hidden;
 	padding-left: 40px;
 	padding-right: 30px;
+}
+.redes{
+	padding-top: 50px;
+	margin-left: 50px;
+	margin-right: 25px;
+	text-decoration: none;
+	color: black;
+	font-size: 28px;
+}
+#twitter:hover{
+	color:#24C7FF;
+}
+#instagram:hover{
+	color:#FF2488;
 }
